@@ -1,6 +1,11 @@
 import React from 'react';
+import './CardsDiv.css';
 
-export function Card(props) {
+import './CardsDiv.scss';
+// import { Card } from 'semantic-ui-react';
+
+
+export function ACard(props) {
     return (
         <div className='card'>
             <h1>{props.name}</h1>
